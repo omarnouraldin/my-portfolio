@@ -1,17 +1,90 @@
+/* General Reset */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-header {
-  background: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
   color: #fff;
-  padding: 20px;
   text-align: center;
 }
 
-section {
-  padding: 20px;
+/* Hero Section */
+header {
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+.hero h1 span {
+  color: #ffd700;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+/* Social Icons */
+.socials a {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: white;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #ffd700;
+}
+
+/* Projects Section */
+.projects {
+  padding: 40px 20px;
+}
+
+.projects h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  font-size: 1.2em;
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+.projects li:hover {
+  transform: scale(1.1);
+  color: #ffd700;
+}
+
+/* Contact Section */
+.contact {
+  padding: 40px 20px;
+}
+
+.contact a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
