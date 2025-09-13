@@ -2,38 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Level-Based Quiz App</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <main class="quiz-container">
-      <!-- Confetti canvas -->
-      <canvas id="confetti-canvas"></canvas>
-
-      <!-- Levels -->
-      <div id="level-container">
-        <div class="level-box" data-level="0">Level 1 🔓</div>
-        <div class="level-box locked" data-level="1">Level 2 🔒</div>
-        <div class="level-box locked" data-level="2">Level 3 🔒</div>
-      </div>
-
-      <!-- Quiz content -->
-      <div id="question">Question will appear here</div>
-      <div id="choices"></div>
-
-      <!-- Controls -->
-      <div class="controls">
-        <div>
-          <div id="progress">0 / 0</div>
-          <div id="timer">Time: 10</div>
+    <header>
+      <div class="hero">
+        <img src="zoro_pfp.png" alt="Omar Ghazy" class="profile-pic" />
+        <h1>Hello, I'm <span>Omar Ghazy</span></h1>
+        <p>Aspiring AI Engineer 🚀</p>
+        <div class="socials">
+          <a href="mailto:omarnourelden3@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+          <a href="https://github.com/omarnouraldin" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </div>
-        <button id="nextBtn" disabled>Next</button>
       </div>
+    </header>
 
-      <!-- Result -->
-      <div id="result" style="display: none"></div>
-    </main>
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><a href="">📚 Quiz App</a></li>
+        <li>📊 Data Analysis with Python</li>
+      </ul>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>
+        Email:
+        <a href="mailto:omarnourelden3@gmail.com">omarnourelden3@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://github.com/omarnouraldin" target="_blank">GitHub</a>
+      </p>
+    </section>
   </body>
 </html>
